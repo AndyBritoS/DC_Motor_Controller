@@ -1,0 +1,469 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "44ac860b-49ed-4c45-8900-aeb9a0fd9e44")
+	(paper "A4")
+	(title_block
+		(title "Block Diagram")
+		(rev "0")
+	)
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 135.89 128.27) (xy 135.89 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08fbe8a0-47d5-4613-b2b0-1569315fad1d")
+	)
+	(polyline
+		(pts
+			(xy 99.314 78.74) (xy 99.314 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d714b46-ce09-471e-90ca-f83b024ca215")
+	)
+	(polyline
+		(pts
+			(xy 163.83 85.725) (xy 175.26 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "132f0e4c-10d9-45fe-a84a-73228643a02f")
+	)
+	(polyline
+		(pts
+			(xy 99.314 83.82) (xy 104.394 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c79bf6-1205-43ed-8654-4b13d81ec5cf")
+	)
+	(polyline
+		(pts
+			(xy 110.109 92.075) (xy 110.109 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d0dd1d8-5096-46b1-b356-f2aaf570ff5f")
+	)
+	(polyline
+		(pts
+			(xy 119.38 92.075) (xy 119.38 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6970c32a-1a5d-4b42-90b3-bc1c5a1f3d82")
+	)
+	(polyline
+		(pts
+			(xy 125.095 85.725) (xy 135.89 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70473b74-d424-4386-a8ca-df9ca2d9780b")
+	)
+	(polyline
+		(pts
+			(xy 122.555 92.075) (xy 122.555 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d2966e-1ef0-48c6-a581-e6182e44403c")
+	)
+	(polyline
+		(pts
+			(xy 89.154 90.805) (xy 104.394 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "760b94f3-4318-4c8d-b5ba-4b736ebcc2cc")
+	)
+	(polyline
+		(pts
+			(xy 195.58 85.725) (xy 196.215 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78d327a8-1178-4825-b3d9-8f130e5f89fa")
+	)
+	(polyline
+		(pts
+			(xy 135.89 114.3) (xy 122.555 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa1331c-23d3-42ca-93f2-dc77d41e1311")
+	)
+	(polyline
+		(pts
+			(xy 88.519 106.045) (xy 110.109 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9be020af-bb58-42a8-8def-9f9a62281e7c")
+	)
+	(polyline
+		(pts
+			(xy 114.554 92.075) (xy 114.554 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a34757-ec7c-4737-ad59-6dc46f400cce")
+	)
+	(polyline
+		(pts
+			(xy 88.519 57.15) (xy 91.059 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab86655-8956-4c5c-9663-b40dcae639be")
+	)
+	(polyline
+		(pts
+			(xy 195.58 85.725) (xy 226.06 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65fe1a6-91ff-4c81-9c98-c758125345ab")
+	)
+	(polyline
+		(pts
+			(xy 88.519 120.65) (xy 114.554 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf1168b4-b64f-4838-9dca-392d62144e56")
+	)
+	(polyline
+		(pts
+			(xy 89.154 78.74) (xy 99.314 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf68b1e6-16af-4c71-a7a5-04922b841548")
+	)
+	(polyline
+		(pts
+			(xy 88.519 57.15) (xy 96.139 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe89015-3b61-470c-8b47-59408b7eee3a")
+	)
+	(rectangle
+		(start 62.611 87.884)
+		(end 89.281 99.314)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1759224f-32b4-463a-b33c-a41dc861dcec)
+	)
+	(rectangle
+		(start 175.387 81.026)
+		(end 195.58 92.456)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 286e3733-e874-41cb-995b-7af10901d134)
+	)
+	(rectangle
+		(start 105.283 128.27)
+		(end 130.683 139.319)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 32bce581-10ca-486a-9f5e-3235c91884e4)
+	)
+	(rectangle
+		(start 67.818 51.308)
+		(end 88.519 62.738)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 33d67ac6-3284-4367-ac67-8524fe4a6454)
+	)
+	(rectangle
+		(start 133.35 128.397)
+		(end 153.67 139.065)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 44b94eaf-88a8-42cf-ae0c-a4af10680db1)
+	)
+	(rectangle
+		(start 136.017 80.772)
+		(end 163.83 92.202)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 66330867-5b63-4153-8b1f-b68ec300cf72)
+	)
+	(rectangle
+		(start 104.521 80.518)
+		(end 125.095 91.948)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7162f01b-cc74-4ea7-a561-bbe321a9ab26)
+	)
+	(rectangle
+		(start 68.199 102.362)
+		(end 88.519 113.792)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7e86918c-668c-4f05-af0c-074b408eeea8)
+	)
+	(rectangle
+		(start 68.453 73.406)
+		(end 88.773 84.836)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aeba9573-fd37-4bfc-a6e2-a4eceebf7861)
+	)
+	(rectangle
+		(start 96.139 49.53)
+		(end 214.884 118.11)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c1bb06b5-8185-4745-95f4-d596f8736989)
+	)
+	(rectangle
+		(start 68.453 116.586)
+		(end 88.519 128.016)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cb70283d-36a2-4dcc-baee-36da699771f9)
+	)
+	(rectangle
+		(start 226.06 80.137)
+		(end 246.634 91.567)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dcf8d536-2b38-45a4-9a01-792408f11eac)
+	)
+	(text "${TITLE}"
+		(exclude_from_sim no)
+		(at 151.384 35.306 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+		)
+		(uuid "2ed3d07b-08b0-4675-a156-244a8d96c21b")
+	)
+	(text "MOSFETs"
+		(exclude_from_sim no)
+		(at 185.42 86.614 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+		)
+		(uuid "4dc9ee7a-0929-4e50-9076-a9ff2050e4c8")
+	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 114.935 86.36 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+		)
+		(uuid "62976d10-363f-46da-8f59-c37d4a1f80c6")
+	)
+	(text "MOSFET DRIVER"
+		(exclude_from_sim no)
+		(at 149.479 86.36 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+		)
+		(uuid "6c079c27-d7f5-4324-b240-cca0f13b65de")
+	)
+	(text "HALL/ENCODER"
+		(exclude_from_sim no)
+		(at 75.819 93.98 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+		)
+		(uuid "6eb551d6-e206-459e-a156-b310b34a9bc7")
+	)
+	(text "COM"
+		(exclude_from_sim no)
+		(at 78.613 108.204 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+		)
+		(uuid "72cc88c1-181e-4cd0-8ce5-c22ccaa3fcd5")
+	)
+	(text "V_SUPPLY"
+		(exclude_from_sim no)
+		(at 78.359 57.15 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+		)
+		(uuid "77e9d6f6-951d-4997-9155-940a0e2aa349")
+	)
+	(text "MOTOR"
+		(exclude_from_sim no)
+		(at 235.966 86.106 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+		)
+		(uuid "ab012c15-5abb-4116-bb53-0ca08f4fd4c3")
+	)
+	(text "CAN"
+		(exclude_from_sim no)
+		(at 78.613 122.682 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+		)
+		(uuid "c2c85b0e-e98e-40b0-a3af-e564a35eceaf")
+	)
+	(text "SERVO"
+		(exclude_from_sim no)
+		(at 143.51 134.366 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+		)
+		(uuid "e3a597d6-109e-4e9e-a816-b084e4afafe4")
+	)
+	(text "TEMP_SENSOR"
+		(exclude_from_sim no)
+		(at 118.364 134.366 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+		)
+		(uuid "eeed1d49-0156-457a-a7a5-3c570e966093")
+	)
+	(text "USB"
+		(exclude_from_sim no)
+		(at 78.359 78.74 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+		)
+		(uuid "f20ee07a-66d0-43bb-a1dc-205a08adff26")
+	)
+)
