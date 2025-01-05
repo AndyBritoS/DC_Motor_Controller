@@ -11,7 +11,7 @@
 	(lib_symbols)
 	(text "${TITLE}"
 		(exclude_from_sim no)
-		(at 130.81 21.844 0)
+		(at 143.764 22.098 0)
 		(effects
 			(font
 				(size 4 4)
