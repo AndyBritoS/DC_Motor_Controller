@@ -88,54 +88,6 @@
 				)
 			)
 			(symbol "DRV8302DCA_0_1"
-				(polyline
-					(pts
-						(xy -16.51 -43.18) (xy 16.51 -43.18)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -16.51 38.1) (xy -16.51 -43.18)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 16.51 -43.18) (xy 16.51 38.1)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 16.51 38.1) (xy -16.51 38.1)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin input line
 					(at -24.13 33.02 0)
 					(length 7.62)
@@ -1160,6 +1112,19 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "DRV8302DCA_1_1"
+				(rectangle
+					(start -16.51 38.1)
+					(end 16.51 -43.18)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)

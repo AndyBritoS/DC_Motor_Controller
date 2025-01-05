@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '7461084'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Wurth Elektronik", "7461084" (!) = "", "7461084", "Other", "710-7461084", "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7461084?qs=lykWx4dhCCHlOeuPuO4BAQ%3D%3D", "PCB power element bush terminal,8P, M6 Wurth Elektronik 8 Pin Power Element, Copper Zinc Alloy, 160A, M6, Vertical", "https://www.we-online.com/components/products/datasheet/7461084.pdf", "13.5 mm"
+END_PART
+
+END.

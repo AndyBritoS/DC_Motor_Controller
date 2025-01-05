@@ -1,0 +1,9 @@
+Manufacturer=Würth Elektronik
+PartNumber=7461084
+PartCategory=Connector
+PackageCategory=Other
+PinCount=8
+Version=3.2
+Released=2023-01-03 15:01:40
+Downloaded=2025-01-05 17:44:45
+3D=Y
