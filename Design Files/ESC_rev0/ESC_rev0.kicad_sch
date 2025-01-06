@@ -98,7 +98,7 @@
 		)
 	)
 	(sheet
-		(at 91.44 95.25)
+		(at 47.625 123.825)
 		(size 29.21 31.75)
 		(fields_autoplaced yes)
 		(stroke
@@ -109,8 +109,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "3e80544b-2d3b-437c-8c9a-22b201e65208")
-		(property "Sheetname" "Overview"
-			(at 91.44 94.5384 0)
+		(property "Sheetname" "Input Protection"
+			(at 47.625 123.1134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -118,8 +118,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "overview.kicad_sch"
-			(at 91.44 127.5846 0)
+		(property "Sheetfile" "input_protection.kicad_sch"
+			(at 47.625 156.1596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -250,7 +250,7 @@
 		)
 	)
 	(sheet
-		(at 129.54 95.25)
+		(at 83.185 123.825)
 		(size 29.21 31.75)
 		(fields_autoplaced yes)
 		(stroke
@@ -262,7 +262,7 @@
 		)
 		(uuid "cef11e7d-cd72-48a5-a1d8-734ca31a81d8")
 		(property "Sheetname" "Block Diagram"
-			(at 129.54 94.5384 0)
+			(at 83.185 123.1134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -271,7 +271,7 @@
 			)
 		)
 		(property "Sheetfile" "block_diagram.kicad_sch"
-			(at 129.54 127.5846 0)
+			(at 83.185 156.1596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
