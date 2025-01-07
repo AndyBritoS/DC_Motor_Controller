@@ -5,7 +5,7 @@
 	(uuid "d9f81514-9a6d-4f06-bb2f-d9f9c323437b")
 	(paper "A4")
 	(title_block
-		(title "Block Diagram")
+		(title " BLOCK DIAGRAM")
 		(rev "0")
 	)
 	(lib_symbols)

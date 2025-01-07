@@ -5,7 +5,7 @@
 	(uuid "bff3d0d8-200e-4cca-97bd-3b5c494af15e")
 	(paper "A4")
 	(title_block
-		(title "Mosfet Driver")
+		(title "MOSFET DRIVER")
 		(rev "0")
 	)
 	(lib_symbols
@@ -4927,6 +4927,18 @@
 		(uuid 4bf5bbad-dcb7-4f91-a0ca-400960987aa9)
 	)
 	(rectangle
+		(start 99.695 50.165)
+		(end 130.81 56.515)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5c76d8f9-ecd9-49dc-ac0d-d6d598118f06)
+	)
+	(rectangle
 		(start 256.54 85.09)
 		(end 281.94 99.695)
 		(stroke
@@ -7155,6 +7167,7 @@
 					(size 1.27 1.27)
 					(italic yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "DRV8302DCA"

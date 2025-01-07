@@ -98,6 +98,44 @@
 		)
 	)
 	(sheet
+		(at 38.1 85.09)
+		(size 29.21 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "283d0162-bde7-4442-bcf2-ede56253b6d8")
+		(property "Sheetname" "Step Down"
+			(at 38.1 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "step_down.kicad_sch"
+			(at 38.1 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESC_rev0"
+				(path "/7906e740-34c4-4b06-b70f-1daa08872946"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 47.625 123.825)
 		(size 29.21 31.75)
 		(fields_autoplaced yes)
@@ -245,6 +283,44 @@
 			(project "ESC_rev0"
 				(path "/7906e740-34c4-4b06-b70f-1daa08872946"
 					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 85.09)
+		(size 29.21 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "abbcb70d-9199-4d8d-b98d-11d4883ec6c1")
+		(property "Sheetname" "Mechanical"
+			(at 74.93 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mechanical.kicad_sch"
+			(at 74.93 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESC_rev0"
+				(path "/7906e740-34c4-4b06-b70f-1daa08872946"
+					(page "11")
 				)
 			)
 		)
