@@ -212,6 +212,44 @@
 		)
 	)
 	(sheet
+		(at 121.92 124.46)
+		(size 29.21 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8b15351f-2572-408e-9e89-2ad0d13cef6d")
+		(property "Sheetname" "USB"
+			(at 121.92 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 121.92 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESC_rev0"
+				(path "/7906e740-34c4-4b06-b70f-1daa08872946"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 133.35 44.45)
 		(size 29.21 31.75)
 		(fields_autoplaced yes)

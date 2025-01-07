@@ -7155,7 +7155,6 @@
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "DRV8302DCA"
