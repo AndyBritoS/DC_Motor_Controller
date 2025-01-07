@@ -9,20 +9,664 @@
 		(rev "0")
 	)
 	(lib_symbols)
-	(text "${TITLE}"
+	(polyline
+		(pts
+			(xy 34.925 43.815) (xy 53.975 43.815)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "217cf9c7-6b7a-4b27-8db6-21bda27d433e")
+	)
+	(polyline
+		(pts
+			(xy 34.925 59.69) (xy 53.975 59.69)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "27969521-2130-43a7-be55-640cc97f730b")
+	)
+	(polyline
+		(pts
+			(xy 34.925 72.39) (xy 53.975 72.39)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "475fec36-2d21-43ae-88d8-b92c2753f284")
+	)
+	(polyline
+		(pts
+			(xy 34.925 56.515) (xy 53.975 56.515)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "4adbcd6c-aa0c-432a-bc82-4b800902d7e0")
+	)
+	(polyline
+		(pts
+			(xy 34.925 62.865) (xy 53.975 62.865)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "501282c5-4299-456c-85ea-14c07eb078d9")
+	)
+	(polyline
+		(pts
+			(xy 34.925 66.04) (xy 53.975 66.04)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "52a4d300-b0ea-4583-a464-c5151bf06511")
+	)
+	(polyline
+		(pts
+			(xy 34.925 53.34) (xy 53.975 53.34)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "5d491f49-8ed6-4575-a3b4-7708a73a3afa")
+	)
+	(polyline
+		(pts
+			(xy 34.925 69.215) (xy 53.975 69.215)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "6bdf4302-7868-4779-9b98-827a2283ced4")
+	)
+	(polyline
+		(pts
+			(xy 34.925 50.165) (xy 53.975 50.165)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "a65b5be2-7931-4265-9218-ec6fa006f6f4")
+	)
+	(polyline
+		(pts
+			(xy 34.925 46.99) (xy 53.975 46.99)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "bbe4b7f7-a5a0-4624-806d-1ab292c702d7")
+	)
+	(rectangle
+		(start 22.86 104.775)
+		(end 116.84 148.59)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 02959ab5-d36e-495f-9bc5-0b430e761878)
+	)
+	(rectangle
+		(start 22.86 17.78)
+		(end 116.84 97.79)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 77d113ef-2941-4416-b754-e2b315492561)
+	)
+	(rectangle
+		(start 22.86 151.13)
+		(end 116.84 194.945)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a61c9ca9-d172-4143-831a-4f1269f9e97a)
+	)
+	(text "MOSFET Driver"
 		(exclude_from_sim no)
-		(at 143.764 22.098 0)
+		(at 54.61 56.642 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.8)
+				(color 186 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "05840be3-a91b-4918-bd2a-1f8bda2c46b4")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 29.718 69.088 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.8)
+				(bold yes)
+				(color 186 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "0bf7575e-b2e3-4a77-9651-949ee7e79aca")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 231.14 71.247 0)
 		(effects
 			(font
 				(size 4 4)
-				(thickness 0.8)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "13204cd4-83bc-4bcc-a92b-3fde586b026e")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 269.24 111.887 0)
+		(effects
+			(font
+				(size 4 4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "148bea76-12bf-4565-8545-75cb8314b3ac")
+	)
+	(text "${TITLE}"
+		(exclude_from_sim no)
+		(at 156.972 26.416 0)
+		(effects
+			(font
+				(size 8 8)
+				(thickness 1.6)
 				(bold yes)
 			)
 		)
 		(uuid "1c988560-9fca-471d-9580-cab16517de3b")
 	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 29.718 62.738 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.8)
+				(bold yes)
+				(color 186 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "1cc3b806-fb0e-401f-8d32-0d66dd2f77f9")
+	)
+	(text "Filters"
+		(exclude_from_sim no)
+		(at 54.61 66.294 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.8)
+				(color 186 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "221f0e6f-c536-4d24-8f42-6f78e0e42005")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 29.718 53.34 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.8)
+				(bold yes)
+				(color 186 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "23acb4b0-2f90-4e9c-b2c2-e03beb32e37f")
+	)
+	(text "Block Diagram"
+		(exclude_from_sim no)
+		(at 54.61 43.942 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.8)
+				(color 186 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "25fbe7cc-33f9-497b-a4c3-48fea24cd087")
+	)
+	(text "Revision: ${REVISION}"
+		(exclude_from_sim no)
+		(at 25.654 23.876 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2a1a5172-c241-4ab3-9e67-8f7f38188228")
+	)
+	(text "USB"
+		(exclude_from_sim no)
+		(at 54.61 69.342 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.8)
+				(color 186 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "3f68837b-1330-4153-8704-f6f757afd858")
+	)
+	(text "Index"
+		(exclude_from_sim no)
+		(at 58.928 38.862 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "4d75ae66-7727-4bab-8178-341152e7d52e")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 29.718 50.292 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.8)
+				(bold yes)
+				(color 186 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "512f28b9-3517-4347-9752-8a76a5ea0403")
+	)
+	(text "DRAFT"
+		(exclude_from_sim no)
+		(at 43.434 89.154 0)
+		(effects
+			(font
+				(size 8 8)
+				(thickness 1.6)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "53de9174-7b0b-48e3-b942-c4c72ee15168")
+	)
+	(text "Mechanical"
+		(exclude_from_sim no)
+		(at 54.61 72.39 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.8)
+				(color 186 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "65812b36-a2a4-44cb-a75d-0387ece4a06b")
+	)
+	(text "Page #"
+		(exclude_from_sim no)
+		(at 32.004 38.735 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "6afbf2ef-0dc8-4b99-9463-c1bc68eaad75")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 155.194 71.247 0)
+		(effects
+			(font
+				(size 4 4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "6b3b060d-d076-48da-a954-7d675d82f6cf")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 29.718 59.69 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.8)
+				(bold yes)
+				(color 186 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "6d1de748-58a1-4506-83e0-fcd5cf07f6e8")
+	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 231.14 111.887 0)
+		(effects
+			(font
+				(size 4 4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "703b9b6e-57ce-4e6c-9f75-3915bfa10295")
+	)
+	(text "MOSFETs"
+		(exclude_from_sim no)
+		(at 54.61 59.944 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.8)
+				(color 186 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "730a96ca-183d-4fcf-b056-6724f9b5642b")
+	)
+	(text "Step Down"
+		(exclude_from_sim no)
+		(at 54.61 50.546 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.8)
+				(color 186 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "74348181-414d-4b5e-bad2-c6d621d90a24")
+	)
+	(text "Variant: No variants"
+		(exclude_from_sim no)
+		(at 26.162 31.242 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "773fcb43-d1da-4c78-b5bc-45d1464d0bcd")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 29.718 43.688 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.8)
+				(bold yes)
+				(color 186 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "79389f8a-3d41-4ebf-a335-07013b9bf3ef")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 29.718 56.388 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.8)
+				(bold yes)
+				(color 186 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "7f0d2c2a-5b48-44cf-9aca-a04de35b47f4")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 193.294 71.247 0)
+		(effects
+			(font
+				(size 4 4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "87e51184-9047-4889-b2ed-182ae28bfbe3")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 193.04 111.887 0)
+		(effects
+			(font
+				(size 4 4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "91cab54b-646f-4ca9-8171-8629f71c901f")
+	)
+	(text "CAN"
+		(exclude_from_sim no)
+		(at 54.61 62.992 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.8)
+				(color 186 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "9db8da16-19c7-4098-9b05-afd427922e40")
+	)
+	(text "10"
+		(exclude_from_sim no)
+		(at 193.294 152.273 0)
+		(effects
+			(font
+				(size 4 4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "a3590d63-86de-4041-853e-607c8ba96f80")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 154.94 152.527 0)
+		(effects
+			(font
+				(size 4 4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "a92c4672-3620-4a8f-8e70-039c745146f7")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 269.24 71.247 0)
+		(effects
+			(font
+				(size 4 4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "aac105e9-e5c7-46a0-be92-3416c2f84f32")
+	)
+	(text "Input Protection"
+		(exclude_from_sim no)
+		(at 54.61 47.244 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.8)
+				(color 186 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "b78aeee7-a752-4e49-84d2-fb8591ba3a42")
+	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 54.61 53.594 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.8)
+				(color 186 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "c5e10a03-f266-47b6-8599-d194daf27ab7")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 29.718 46.99 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.8)
+				(bold yes)
+				(color 186 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "d632b1ef-0f48-44b2-8167-444a7c88d132")
+	)
+	(text "Board Image Front"
+		(exclude_from_sim no)
+		(at 25.4 109.728 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "da32d55a-c536-4072-9199-d2a509857a00")
+	)
+	(text "10"
+		(exclude_from_sim no)
+		(at 29.718 72.39 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.8)
+				(bold yes)
+				(color 186 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "e1f539b5-d4a5-4a9e-a65d-5ba050c88b6b")
+	)
+	(text "Date:   2025/01/07"
+		(exclude_from_sim no)
+		(at 98.044 94.996 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.8)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "ebc2d379-394e-4928-a352-10bb00bdcd30")
+	)
+	(text "Board Image Back"
+		(exclude_from_sim no)
+		(at 25.4 154.94 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "f07235aa-9712-4ab8-8268-30dd748b9300")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 29.718 66.04 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.8)
+				(bold yes)
+				(color 186 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "f0c6d68e-bdaa-41df-abb1-b7a98e20e545")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 155.194 111.887 0)
+		(effects
+			(font
+				(size 4 4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "f766782a-ba45-444b-b7a2-3edab52f030c")
+	)
+	(text "Project Status:"
+		(exclude_from_sim no)
+		(at 25.908 80.264 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "fdc7e313-d288-44c7-9c06-367050da8101")
+	)
 	(sheet
-		(at 52.07 44.45)
+		(at 243.84 41.91)
 		(size 29.21 31.75)
 		(fields_autoplaced yes)
 		(stroke
@@ -30,11 +674,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 15 255 0 1.0000)
 		)
 		(uuid "1baec614-c02a-4110-987c-3ea70161a713")
 		(property "Sheetname" "MCU"
-			(at 52.07 43.7384 0)
+			(at 243.84 41.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,7 +687,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 52.07 76.7846 0)
+			(at 243.84 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60,7 +704,7 @@
 		)
 	)
 	(sheet
-		(at 170.18 44.45)
+		(at 205.74 82.55)
 		(size 29.21 31.75)
 		(fields_autoplaced yes)
 		(stroke
@@ -68,11 +712,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 15 255 0 1.0000)
 		)
 		(uuid "266b9186-051e-444d-b818-05c34306ea22")
 		(property "Sheetname" "CAN"
-			(at 170.18 43.7384 0)
+			(at 205.74 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81,7 +725,7 @@
 			)
 		)
 		(property "Sheetfile" "CAN.kicad_sch"
-			(at 170.18 76.7846 0)
+			(at 205.74 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -98,7 +742,7 @@
 		)
 	)
 	(sheet
-		(at 38.1 85.09)
+		(at 205.74 41.91)
 		(size 29.21 31.75)
 		(fields_autoplaced yes)
 		(stroke
@@ -106,11 +750,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 15 255 0 1.0000)
 		)
 		(uuid "283d0162-bde7-4442-bcf2-ede56253b6d8")
 		(property "Sheetname" "Step Down"
-			(at 38.1 84.3784 0)
+			(at 205.74 41.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -119,7 +763,7 @@
 			)
 		)
 		(property "Sheetfile" "step_down.kicad_sch"
-			(at 38.1 117.4246 0)
+			(at 205.74 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,13 +774,13 @@
 		(instances
 			(project "ESC_rev0"
 				(path "/7906e740-34c4-4b06-b70f-1daa08872946"
-					(page "10")
+					(page "3")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 47.625 123.825)
+		(at 167.64 41.91)
 		(size 29.21 31.75)
 		(fields_autoplaced yes)
 		(stroke
@@ -144,11 +788,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 15 255 0 1.0000)
 		)
 		(uuid "3e80544b-2d3b-437c-8c9a-22b201e65208")
 		(property "Sheetname" "Input Protection"
-			(at 47.625 123.1134 0)
+			(at 167.64 41.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +801,7 @@
 			)
 		)
 		(property "Sheetfile" "input_protection.kicad_sch"
-			(at 47.625 156.1596 0)
+			(at 167.64 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,7 +818,7 @@
 		)
 	)
 	(sheet
-		(at 205.74 44.45)
+		(at 243.84 82.55)
 		(size 29.21 31.75)
 		(fields_autoplaced yes)
 		(stroke
@@ -182,11 +826,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 15 255 0 1.0000)
 		)
 		(uuid "5fd9db5c-0736-4055-a357-6423994f4958")
 		(property "Sheetname" "Filters"
-			(at 205.74 43.7384 0)
+			(at 243.84 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -195,7 +839,7 @@
 			)
 		)
 		(property "Sheetfile" "filters.kicad_sch"
-			(at 205.74 76.7846 0)
+			(at 243.84 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -212,7 +856,7 @@
 		)
 	)
 	(sheet
-		(at 93.98 44.45)
+		(at 129.54 82.55)
 		(size 29.21 31.75)
 		(fields_autoplaced yes)
 		(stroke
@@ -220,11 +864,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 15 255 0 1.0000)
 		)
 		(uuid "7bd23810-1284-43c0-85ae-fb85b4c95d04")
 		(property "Sheetname" "MOSFET DRIVER"
-			(at 93.98 43.7384 0)
+			(at 129.54 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -233,7 +877,7 @@
 			)
 		)
 		(property "Sheetfile" "MOSFET_DRIVER.kicad_sch"
-			(at 93.98 76.7846 0)
+			(at 129.54 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -250,7 +894,7 @@
 		)
 	)
 	(sheet
-		(at 121.92 124.46)
+		(at 129.54 123.19)
 		(size 29.21 31.75)
 		(fields_autoplaced yes)
 		(stroke
@@ -258,11 +902,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 15 255 0 1.0000)
 		)
 		(uuid "8b15351f-2572-408e-9e89-2ad0d13cef6d")
 		(property "Sheetname" "USB"
-			(at 121.92 123.7484 0)
+			(at 129.54 122.4784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -271,7 +915,7 @@
 			)
 		)
 		(property "Sheetfile" "USB.kicad_sch"
-			(at 121.92 156.7946 0)
+			(at 129.54 155.5246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -288,7 +932,7 @@
 		)
 	)
 	(sheet
-		(at 74.93 85.09)
+		(at 167.64 123.19)
 		(size 29.21 31.75)
 		(fields_autoplaced yes)
 		(stroke
@@ -296,11 +940,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 15 255 0 1.0000)
 		)
 		(uuid "abbcb70d-9199-4d8d-b98d-11d4883ec6c1")
 		(property "Sheetname" "Mechanical"
-			(at 74.93 84.3784 0)
+			(at 167.64 122.4784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -309,7 +953,7 @@
 			)
 		)
 		(property "Sheetfile" "Mechanical.kicad_sch"
-			(at 74.93 117.4246 0)
+			(at 167.64 155.5246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -320,13 +964,13 @@
 		(instances
 			(project "ESC_rev0"
 				(path "/7906e740-34c4-4b06-b70f-1daa08872946"
-					(page "11")
+					(page "10")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 133.35 44.45)
+		(at 167.64 82.55)
 		(size 29.21 31.75)
 		(fields_autoplaced yes)
 		(stroke
@@ -334,11 +978,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 15 255 0 1.0000)
 		)
 		(uuid "b7ae9a45-6f12-4716-8d28-767d1943a1a2")
 		(property "Sheetname" "MOSFETs"
-			(at 133.35 43.7384 0)
+			(at 167.64 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -347,7 +991,7 @@
 			)
 		)
 		(property "Sheetfile" "MOSFETs.kicad_sch"
-			(at 133.35 76.7846 0)
+			(at 167.64 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -364,7 +1008,7 @@
 		)
 	)
 	(sheet
-		(at 83.185 123.825)
+		(at 129.54 41.91)
 		(size 29.21 31.75)
 		(fields_autoplaced yes)
 		(stroke
@@ -372,11 +1016,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 15 255 0 1.0000)
 		)
 		(uuid "cef11e7d-cd72-48a5-a1d8-734ca31a81d8")
 		(property "Sheetname" "Block Diagram"
-			(at 83.185 123.1134 0)
+			(at 129.54 41.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -385,7 +1029,7 @@
 			)
 		)
 		(property "Sheetfile" "block_diagram.kicad_sch"
-			(at 83.185 156.1596 0)
+			(at 129.54 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -396,14 +1040,14 @@
 		(instances
 			(project "ESC_rev0"
 				(path "/7906e740-34c4-4b06-b70f-1daa08872946"
-					(page "3")
+					(page "1")
 				)
 			)
 		)
 	)
 	(sheet_instances
 		(path "/"
-			(page "1")
+			(page "0")
 		)
 	)
 )

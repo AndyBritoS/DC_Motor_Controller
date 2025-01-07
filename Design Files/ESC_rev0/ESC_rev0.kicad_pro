@@ -269,7 +269,8 @@
     "netclass_assignments": {
       "+3V3": "PWR_FLAG",
       "+5V": "PWR_FLAG",
-      "+VDC": "PWR_FLAG"
+      "+VDC": "PWR_FLAG",
+      "GND": "PWR_FLAG"
     },
     "netclass_patterns": []
   },
@@ -392,12 +393,16 @@
       "Root"
     ],
     [
+      "cef11e7d-cd72-48a5-a1d8-734ca31a81d8",
+      "Block Diagram"
+    ],
+    [
       "3e80544b-2d3b-437c-8c9a-22b201e65208",
       "Input Protection"
     ],
     [
-      "cef11e7d-cd72-48a5-a1d8-734ca31a81d8",
-      "Block Diagram"
+      "283d0162-bde7-4442-bcf2-ede56253b6d8",
+      "Step Down"
     ],
     [
       "1baec614-c02a-4110-987c-3ea70161a713",
@@ -422,10 +427,6 @@
     [
       "8b15351f-2572-408e-9e89-2ad0d13cef6d",
       "USB"
-    ],
-    [
-      "283d0162-bde7-4442-bcf2-ede56253b6d8",
-      "Step Down"
     ],
     [
       "abbcb70d-9199-4d8d-b98d-11d4883ec6c1",
