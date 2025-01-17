@@ -1714,12 +1714,6 @@
 		(uuid "16f5165c-07d8-4cf3-8a79-4e9d0f6ad387")
 	)
 	(junction
-		(at 133.35 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22d0ea78-b4e0-4c0d-a183-e4af91189bc6")
-	)
-	(junction
 		(at 170.18 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2049,7 +2043,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 139.7) (xy 133.35 135.89)
+			(xy 133.35 149.86) (xy 133.35 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9be1a7aa-7424-4468-b697-e79922b3e1fd")
+	)
+	(wire
+		(pts
+			(xy 133.35 133.35) (xy 133.35 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2216,16 +2220,6 @@
 			(type default)
 		)
 		(uuid "e14d36f0-a5da-4697-a0d4-6ed8217b903f")
-	)
-	(wire
-		(pts
-			(xy 133.35 133.35) (xy 133.35 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7f42f00-5159-48dc-a0cd-c9d8e3abdb2f")
 	)
 	(wire
 		(pts
@@ -2728,7 +2722,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprint:CONN-TH_XT30PW-M"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
 			(at 43.18 78.74 0)
 			(effects
 				(font
@@ -2815,7 +2809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm"
 			(at 133.35 144.78 0)
 			(effects
 				(font
@@ -2952,7 +2946,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 171.958 92.71 90)
 			(effects
 				(font
@@ -3217,7 +3211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:CONN-SMD_XH-2PWBPZ"
+		(property "Footprint" "XH-2PWBPZ_foot:CONN-SMD_XH-2PWBPZ"
 			(at 124.46 132.08 0)
 			(effects
 				(font
@@ -3413,7 +3407,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 135.89 0)
+		(at 133.35 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3421,7 +3415,7 @@
 		(dnp no)
 		(uuid "9d3d3fd0-2187-4e05-8bdd-c84c74920adc")
 		(property "Reference" "#PWR04"
-			(at 133.35 142.24 0)
+			(at 133.35 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,7 +3424,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 139.954 0)
+			(at 133.35 156.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,7 +3432,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 135.89 0)
+			(at 133.35 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,7 +3441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 135.89 0)
+			(at 133.35 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,7 +3450,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 135.89 0)
+			(at 133.35 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3568,7 +3562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 131.572 129.54 90)
 			(effects
 				(font
@@ -3773,7 +3767,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 171.958 82.55 90)
 			(effects
 				(font
@@ -3840,7 +3834,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 213.868 83.82 90)
 			(effects
 				(font

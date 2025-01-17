@@ -1956,6 +1956,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 97.79) (xy 257.81 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54085068-055b-499d-9cb3-9045163a7ff2")
+	)
+	(wire
+		(pts
 			(xy 210.82 96.52) (xy 208.28 96.52)
 		)
 		(stroke
@@ -2053,6 +2063,16 @@
 			(type default)
 		)
 		(uuid "6245be07-a792-4a22-afbf-a948dd124eac")
+	)
+	(wire
+		(pts
+			(xy 264.16 101.6) (xy 257.81 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62faa7c0-7283-45a9-b8f0-746ea11cd97c")
 	)
 	(wire
 		(pts
@@ -2738,6 +2758,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 105.41) (xy 257.81 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f43a45-673c-47a8-8b6d-8f408eab2aa1")
+	)
+	(wire
+		(pts
 			(xy 149.86 87.63) (xy 149.86 86.36)
 		)
 		(stroke
@@ -3180,6 +3210,18 @@
 		(uuid 60b87eaa-59e5-4879-9ba7-a0eb0b9e12d4)
 	)
 	(rectangle
+		(start 250.825 91.44)
+		(end 272.415 109.855)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6bbab6f6-f1bc-47bb-a1d6-c378d5decf69)
+	)
+	(rectangle
 		(start 245.745 42.545)
 		(end 276.86 53.34)
 		(stroke
@@ -3314,6 +3356,16 @@
 			)
 		)
 		(uuid "30144d58-47a3-41c4-80c7-b803d51d1a5a")
+	)
+	(text "SHx"
+		(exclude_from_sim no)
+		(at 262.89 93.853 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a8bd142-95da-49c4-a87e-1185b5bcc4e7")
 	)
 	(text "PHASE 1"
 		(exclude_from_sim no)
@@ -3450,6 +3502,17 @@
 			(justify left bottom)
 		)
 		(uuid "056b8c89-4edd-45af-8fff-32c41ae4df6d")
+	)
+	(label "SH2"
+		(at 257.81 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0803b245-d393-4535-a1cb-8104c5a1d3d5")
 	)
 	(label "S1_P"
 		(at 71.12 132.08 0)
@@ -3660,6 +3723,17 @@
 		)
 		(uuid "47b0725b-595e-468c-a0c1-d5de80eaa04c")
 	)
+	(label "SH1"
+		(at 257.81 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "54089ae5-c2a7-4838-9ea3-5cc6357c45b4")
+	)
 	(label "GL1"
 		(at 49.53 104.14 0)
 		(fields_autoplaced yes)
@@ -3846,6 +3920,17 @@
 			(justify left bottom)
 		)
 		(uuid "a2af075b-ecf2-4755-bdbc-59c2a4b4024d")
+	)
+	(label "SH3"
+		(at 257.81 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a49c97c5-aeb3-4c7f-98c0-2744f0cd72a7")
 	)
 	(label "SN1"
 		(at 31.75 113.03 0)
@@ -4045,6 +4130,28 @@
 			)
 		)
 	)
+	(global_label "SH1"
+		(shape input)
+		(at 264.16 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3be36071-004d-40ef-aec9-707839e80b7f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.8947 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "M_H1"
 		(shape input)
 		(at 25.4 50.8 180)
@@ -4063,6 +4170,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SH3"
+		(shape input)
+		(at 264.16 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62b0cac3-54a8-4b05-80d7-d17cb390e419")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.8947 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4151,6 +4280,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SH2"
+		(shape input)
+		(at 264.16 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1491095-9e88-4586-a5ef-db43a73910f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.8947 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4314,7 +4465,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 83.058 134.62 90)
 			(effects
 				(font
@@ -4390,7 +4541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
+		(property "Footprint" "HSBA15810C_foot:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
 			(at 216.408 65.786 0)
 			(effects
 				(font
@@ -4490,7 +4641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
 			(at 205.74 91.44 0)
 			(effects
 				(font
@@ -4557,7 +4708,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 60.96 131.318 90)
 			(effects
 				(font
@@ -4624,7 +4775,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.73 105.918 90)
 			(effects
 				(font
@@ -4756,7 +4907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.73 83.058 90)
 			(effects
 				(font
@@ -4893,7 +5044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
 			(at 213.36 121.92 0)
 			(effects
 				(font
@@ -5029,7 +5180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 197.612 109.22 90)
 			(effects
 				(font
@@ -5097,7 +5248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
 			(at 73.66 91.44 0)
 			(effects
 				(font
@@ -5164,7 +5315,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 60.96 141.478 90)
 			(effects
 				(font
@@ -5231,7 +5382,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 191.77 83.058 90)
 			(effects
 				(font
@@ -5299,7 +5450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
 			(at 81.28 144.78 0)
 			(effects
 				(font
@@ -5369,7 +5520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
+		(property "Footprint" "HSBA15810C_foot:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
 			(at 84.328 65.786 0)
 			(effects
 				(font
@@ -5471,7 +5622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
+		(property "Footprint" "HSBA15810C_foot:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
 			(at 84.328 88.646 0)
 			(effects
 				(font
@@ -5704,7 +5855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 131.572 109.22 90)
 			(effects
 				(font
@@ -5836,7 +5987,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 191.77 105.918 90)
 			(effects
 				(font
@@ -5969,7 +6120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
 			(at 147.32 121.92 0)
 			(effects
 				(font
@@ -6039,7 +6190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
+		(property "Footprint" "HSBA15810C_foot:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
 			(at 150.368 65.786 0)
 			(effects
 				(font
@@ -6141,7 +6292,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 149.098 134.62 90)
 			(effects
 				(font
@@ -6283,7 +6434,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 59.69 105.918 90)
 			(effects
 				(font
@@ -6416,7 +6567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
 			(at 147.32 144.78 0)
 			(effects
 				(font
@@ -6483,7 +6634,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127 141.478 90)
 			(effects
 				(font
@@ -6681,7 +6832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
 			(at 139.7 91.44 0)
 			(effects
 				(font
@@ -6748,7 +6899,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 59.69 83.058 90)
 			(effects
 				(font
@@ -6817,7 +6968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 65.532 109.22 90)
 			(effects
 				(font
@@ -6885,7 +7036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
 			(at 81.28 121.92 0)
 			(effects
 				(font
@@ -6955,7 +7106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
+		(property "Footprint" "HSBA15810C_foot:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
 			(at 216.408 88.646 0)
 			(effects
 				(font
@@ -7124,7 +7275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
+		(property "Footprint" "HSBA15810C_foot:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
 			(at 150.368 88.646 0)
 			(effects
 				(font
@@ -7223,7 +7374,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127 131.318 90)
 			(effects
 				(font

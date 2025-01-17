@@ -2493,7 +2493,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 123.19 116.078 90)
 			(effects
 				(font
@@ -2698,7 +2698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.442 102.87 90)
 			(effects
 				(font
@@ -2832,7 +2832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical"
 			(at 63.5 104.14 0)
 			(effects
 				(font
@@ -2973,7 +2973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprint:SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+		(property "Footprint" "ESDCAN24-2BLY_ST_foot:SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
 			(at 81.28 102.87 0)
 			(effects
 				(font
@@ -3492,7 +3492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 206.502 113.03 90)
 			(effects
 				(font
@@ -3624,7 +3624,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 123.19 94.488 90)
 			(effects
 				(font
