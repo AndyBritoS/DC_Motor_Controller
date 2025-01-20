@@ -1,0 +1,283 @@
+(footprint "XT60PWM"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "XT60PW-M-2")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 0 -7.163 0)
+		(layer "F.SilkS")
+		(uuid "fbf2e53a-b73f-4f9a-9bd6-f15116594bdd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "XT60PWM"
+		(at 0 -7.163 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6bb46825-bff3-4572-8945-f2efe5c80878")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc50f059-3ace-49ae-bc82-36cc4bbc2178")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47f5ead6-51ec-4285-8929-1215f3ebbe3c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4ceb58c-1c27-470a-8d61-de516432a552")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.75 -16.35)
+		(end 7.75 -16.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "046a2379-2da8-424e-8d1c-4fe501bf0b72")
+	)
+	(fp_line
+		(start -7.75 -7)
+		(end -7.75 -16.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1856b97b-741d-47d5-97c7-4650a3fc228b")
+	)
+	(fp_line
+		(start -7.75 -3)
+		(end -7.75 1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f79da71-bbb4-41e0-a492-e5e6b54d910c")
+	)
+	(fp_line
+		(start -7.75 1.85)
+		(end -5.6 1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ac49580-8461-4b94-825c-9fa81965f4c5")
+	)
+	(fp_line
+		(start 5.4 1.85)
+		(end 7.75 1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0016484e-a91a-4a28-9988-50f84cfa934d")
+	)
+	(fp_line
+		(start 7.75 -16.35)
+		(end 7.75 -7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5827846-0946-44bd-92f7-efd9e2846a95")
+	)
+	(fp_line
+		(start 7.75 1.85)
+		(end 7.75 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11e3d3cc-f889-4850-af0b-c594c1680381")
+	)
+	(fp_line
+		(start -9.1 -17.35)
+		(end 9.1 -17.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "33864b4f-9d0c-4dac-ade7-fb600e273948")
+	)
+	(fp_line
+		(start -9.1 3.025)
+		(end -9.1 -17.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d6434cc0-1923-4cde-8e2c-059217b659fd")
+	)
+	(fp_line
+		(start 9.1 -17.35)
+		(end 9.1 3.025)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5d1f74f8-41bb-49d2-8f1b-c0fdb7c3d4c1")
+	)
+	(fp_line
+		(start 9.1 3.025)
+		(end -9.1 3.025)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9dc8e94d-fe59-4ec3-94f2-7a137133212b")
+	)
+	(fp_line
+		(start -7.75 -16.35)
+		(end 7.75 -16.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "316d0d79-824a-4338-bbdc-9118ace01011")
+	)
+	(fp_line
+		(start -7.75 1.85)
+		(end -7.75 -16.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7364df10-7c1a-4d3f-a739-db1d7f99b5d6")
+	)
+	(fp_line
+		(start 7.75 -16.35)
+		(end 7.75 1.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e41c35db-435b-41f8-910f-727c7a2e6da9")
+	)
+	(fp_line
+		(start 7.75 1.85)
+		(end -7.75 1.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "28ab360a-b982-4d7a-a71e-1de2a9bd39c7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -7.163 0)
+		(layer "F.Fab")
+		(uuid "753e7901-f79e-4003-ba2a-f1dcb5391d6e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.6 0)
+		(size 4.05 4.05)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "670ca13b-e0a8-4182-89a0-18a92651a99f")
+	)
+	(pad "2" thru_hole circle
+		(at 3.6 0)
+		(size 4.05 4.05)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3dd17094-2879-4107-ba9c-ac59cb4c861b")
+	)
+	(pad "3" thru_hole circle
+		(at 6.75 -6)
+		(size 2.7 2.7)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "108fcd4e-297b-4d3f-bbcc-c2decb50b0b4")
+	)
+	(pad "4" thru_hole circle
+		(at -6.75 -6)
+		(size 2.7 2.7)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "edb8131a-7662-47d7-ae51-59150ce4a471")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT60PW-M_1x02_P7.20mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT60PW-M_1x02_P7.20mm_Horizontal_Octopart.stp"
+		(offset
+			(xyz 0 -0.5 4.35)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)
