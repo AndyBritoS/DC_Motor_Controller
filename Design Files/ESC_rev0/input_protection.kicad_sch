@@ -2706,7 +2706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 180.0352 97.79 0)
 			(effects
 				(font
@@ -2776,7 +2776,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "XT60PWM"
+		(property "Footprint" "XT60PW-M:XT60PWM"
 			(at 66.04 -16.18 0)
 			(effects
 				(font
@@ -2933,7 +2933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 133.35 144.78 0)
 			(effects
 				(font
@@ -3422,7 +3422,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 212.09 92.71 0)
 			(effects
 				(font
@@ -4092,7 +4092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 147.0152 129.54 0)
 			(effects
 				(font

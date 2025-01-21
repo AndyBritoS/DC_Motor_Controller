@@ -1864,6 +1864,12 @@
 		(uuid "60b10463-e6e2-40bc-b8c0-bb69d2ef85f5")
 	)
 	(junction
+		(at 83.82 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ac118af-3154-453f-aed6-77d0aa085d32")
+	)
+	(junction
 		(at 109.22 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1873,13 +1879,7 @@
 		(at 83.82 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c0ad19f8-4a02-4877-8543-58e86f88cadf")
-	)
-	(junction
-		(at 83.82 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef0a2164-d86e-4a48-9b7e-e9cbf0036d19")
+		(uuid "e8bdef40-a5b9-4f3c-9ce1-98bf19d74b1b")
 	)
 	(no_connect
 		(at 63.5 93.98)
@@ -1888,6 +1888,26 @@
 	(no_connect
 		(at 198.12 104.14)
 		(uuid "f3ffdbd0-98cb-4041-848a-3e28cf0dcedb")
+	)
+	(wire
+		(pts
+			(xy 87.63 100.33) (xy 83.82 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08479548-a4fe-4396-8b2f-78c54b32e268")
+	)
+	(wire
+		(pts
+			(xy 83.82 105.41) (xy 87.63 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f19ce82-826b-4d69-9f0a-0cececaa5ce1")
 	)
 	(wire
 		(pts
@@ -1901,14 +1921,14 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 105.41) (xy 83.82 104.14)
+			(xy 83.82 100.33) (xy 83.82 101.6)
 		)
 		(stroke
 			(width 0.5)
 			(type default)
 			(color 51 104 10 1)
 		)
-		(uuid "1f6dacc8-b53f-4690-b482-019e4ba88be1")
+		(uuid "23c7959f-4199-4ccb-95c7-43a51be62e94")
 	)
 	(wire
 		(pts
@@ -1933,17 +1953,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 92.71) (xy 83.82 100.33)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 51 104 10 1)
-		)
-		(uuid "267d79d3-5b00-4a17-928e-8de73f10140f")
-	)
-	(wire
-		(pts
 			(xy 71.12 106.68) (xy 71.12 109.22)
 		)
 		(stroke
@@ -1965,7 +1974,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 101.6) (xy 132.08 101.6)
+			(xy 142.24 101.6) (xy 132.08 101.6)
 		)
 		(stroke
 			(width 0.5)
@@ -2007,6 +2016,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 100.33) (xy 83.82 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48837869-f062-47dd-9384-88087fee09d8")
+	)
+	(wire
+		(pts
 			(xy 198.12 101.6) (xy 226.06 101.6)
 		)
 		(stroke
@@ -2034,16 +2053,6 @@
 			(type default)
 		)
 		(uuid "5c4dbc0d-0d93-4c13-a8a7-36daaa4b8038")
-	)
-	(wire
-		(pts
-			(xy 83.82 100.33) (xy 86.36 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6230dc74-286f-4a0e-8b8b-9f90387ef68e")
 	)
 	(wire
 		(pts
@@ -2108,6 +2117,17 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 105.41) (xy 83.82 114.3)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 51 104 10 1)
+		)
+		(uuid "7588b3d8-85ba-42d3-851f-5dc69d7bae20")
+	)
+	(wire
+		(pts
 			(xy 208.28 106.68) (xy 198.12 106.68)
 		)
 		(stroke
@@ -2160,17 +2180,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 105.41) (xy 83.82 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "962e433e-0f08-4a70-ac9d-83b938129f0e")
-	)
-	(wire
-		(pts
-			(xy 99.06 102.87) (xy 104.14 102.87)
+			(xy 100.33 102.87) (xy 104.14 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2190,7 +2200,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 101.6) (xy 83.82 100.33)
+			(xy 83.82 92.71) (xy 83.82 100.33)
 		)
 		(stroke
 			(width 0.5)
@@ -2201,7 +2211,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 101.6) (xy 177.8 101.6)
+			(xy 162.56 101.6) (xy 177.8 101.6)
 		)
 		(stroke
 			(width 0.5)
@@ -2265,7 +2275,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 104.14) (xy 177.8 104.14)
+			(xy 162.56 104.14) (xy 177.8 104.14)
 		)
 		(stroke
 			(width 0.5)
@@ -2306,7 +2316,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 114.3) (xy 83.82 105.41)
+			(xy 83.82 104.14) (xy 83.82 105.41)
 		)
 		(stroke
 			(width 0.5)
@@ -2327,7 +2337,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 104.14) (xy 132.08 104.14)
+			(xy 142.24 104.14) (xy 132.08 104.14)
 		)
 		(stroke
 			(width 0.5)
@@ -2439,7 +2449,7 @@
 	)
 	(text "Choke"
 		(exclude_from_sim no)
-		(at 153.67 108.458 0)
+		(at 152.654 98.298 0)
 		(effects
 			(font
 				(size 1 1)
@@ -2588,7 +2598,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "015fa18d-9e05-4c55-b632-49793db006fb")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR058"
 			(at 104.14 111.76 0)
 			(effects
 				(font
@@ -2638,7 +2648,7 @@
 		(instances
 			(project "ESC_rev0"
 				(path "/7906e740-34c4-4b06-b70f-1daa08872946/266b9186-051e-444d-b818-05c34306ea22"
-					(reference "#PWR062")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2654,7 +2664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "023d2089-5792-4d8d-98ab-7a6507b0f4a7")
-		(property "Reference" "C51"
+		(property "Reference" "C50"
 			(at 204.47 82.5499 0)
 			(effects
 				(font
@@ -2672,7 +2682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 201.6252 87.63 0)
 			(effects
 				(font
@@ -2708,7 +2718,7 @@
 		(instances
 			(project ""
 				(path "/7906e740-34c4-4b06-b70f-1daa08872946/266b9186-051e-444d-b818-05c34306ea22"
-					(reference "C51")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -2723,7 +2733,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07c60457-a385-4a16-97e1-23ee9ac3b7dc")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR060"
 			(at 187.96 77.47 0)
 			(effects
 				(font
@@ -2773,7 +2783,7 @@
 		(instances
 			(project ""
 				(path "/7906e740-34c4-4b06-b70f-1daa08872946/266b9186-051e-444d-b818-05c34306ea22"
-					(reference "#PWR064")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -2788,7 +2798,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "124d903a-6e2e-470d-bfd4-959575378502")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR062"
 			(at 200.66 95.25 0)
 			(effects
 				(font
@@ -2838,7 +2848,7 @@
 		(instances
 			(project "ESC_rev0"
 				(path "/7906e740-34c4-4b06-b70f-1daa08872946/266b9186-051e-444d-b818-05c34306ea22"
-					(reference "#PWR066")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -2853,7 +2863,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ebf9c2d-8218-408a-b8f7-5924a81c681a")
-		(property "Reference" "R44"
+		(property "Reference" "R42"
 			(at 123.19 109.474 90)
 			(effects
 				(font
@@ -2905,7 +2915,7 @@
 		(instances
 			(project "ESC_rev0"
 				(path "/7906e740-34c4-4b06-b70f-1daa08872946/266b9186-051e-444d-b818-05c34306ea22"
-					(reference "R44")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -2920,7 +2930,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36133c6f-54c3-423d-842e-2cf3e5711356")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR063"
 			(at 208.28 125.73 0)
 			(effects
 				(font
@@ -2970,7 +2980,7 @@
 		(instances
 			(project "ESC_rev0"
 				(path "/7906e740-34c4-4b06-b70f-1daa08872946/266b9186-051e-444d-b818-05c34306ea22"
-					(reference "#PWR067")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -2986,7 +2996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "373894fa-a5a4-4b99-b859-9d43c812b1da")
-		(property "Reference" "C49"
+		(property "Reference" "C48"
 			(at 113.03 85.0899 0)
 			(effects
 				(font
@@ -3004,7 +3014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 110.1852 90.17 0)
 			(effects
 				(font
@@ -3040,7 +3050,7 @@
 		(instances
 			(project ""
 				(path "/7906e740-34c4-4b06-b70f-1daa08872946/266b9186-051e-444d-b818-05c34306ea22"
-					(reference "C49")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -3056,7 +3066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53cfa761-e010-4fed-b330-c0bc5194943b")
-		(property "Reference" "R42"
+		(property "Reference" "R40"
 			(at 111.76 101.5999 0)
 			(effects
 				(font
@@ -3110,7 +3120,7 @@
 		(instances
 			(project ""
 				(path "/7906e740-34c4-4b06-b70f-1daa08872946/266b9186-051e-444d-b818-05c34306ea22"
-					(reference "R42")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -3125,7 +3135,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c590e90-0bec-49ff-9736-429f447590a7")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR057"
 			(at 102.87 88.9 0)
 			(effects
 				(font
@@ -3175,7 +3185,7 @@
 		(instances
 			(project "ESC_rev0"
 				(path "/7906e740-34c4-4b06-b70f-1daa08872946/266b9186-051e-444d-b818-05c34306ea22"
-					(reference "#PWR061")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3267,7 +3277,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96a22af4-c856-466d-b784-46218a397c91")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR056"
 			(at 71.12 115.57 0)
 			(effects
 				(font
@@ -3317,7 +3327,153 @@
 		(instances
 			(project ""
 				(path "/7906e740-34c4-4b06-b70f-1daa08872946/266b9186-051e-444d-b818-05c34306ea22"
-					(reference "#PWR060")
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "744227S:744227S")
+		(at 142.24 104.14 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8eb1b67-e74d-4bc0-9604-86792d8cd8e8")
+		(property "Reference" "L2"
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "744227S"
+			(at 152.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "744227S_foot:WE-SL274"
+			(at 158.75 9.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://componentsearchengine.com/Datasheets/1/744227S.pdf"
+			(at 158.75 -90.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Common-Mode Line Filter WE-SL2"
+			(at 142.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 158.75 -290.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 158.75 -390.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "744227S"
+			(at 158.75 -490.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-744227S"
+			(at 158.75 -590.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/744227S?qs=PGXP4M47uW6UzRbcLRn7mw%3D%3D"
+			(at 158.75 -690.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 158.75 -790.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 158.75 -890.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "557a5c13-fb3d-4482-8bc5-9ca3e4e5311d")
+		)
+		(pin "2"
+			(uuid "f9693b4b-13f8-443c-9552-1c4363c57bc4")
+		)
+		(pin "3"
+			(uuid "f3478fdd-a737-4b7e-85d6-dcfff203a25a")
+		)
+		(pin "4"
+			(uuid "ab572ad7-7fe7-4d8b-abd7-388d085557e9")
+		)
+		(instances
+			(project "ESC_rev0"
+				(path "/7906e740-34c4-4b06-b70f-1daa08872946/266b9186-051e-444d-b818-05c34306ea22"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -3325,7 +3481,8 @@
 	)
 	(symbol
 		(lib_id "ESDCAN24-2BLY:ESDCAN24-2BLY")
-		(at 91.44 102.87 270)
+		(at 92.71 102.87 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3333,7 +3490,7 @@
 		(dnp no)
 		(uuid "b79bdb96-4f59-4fdf-bf5a-a62847dca403")
 		(property "Reference" "U6"
-			(at 91.948 107.95 90)
+			(at 93.218 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3341,7 +3498,7 @@
 			)
 		)
 		(property "Value" "ESDCAN24-2BLY"
-			(at 92.202 109.982 90)
+			(at 93.472 95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,7 +3506,7 @@
 			)
 		)
 		(property "Footprint" "ESDCAN24-2BLY_ST_foot:SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
-			(at 81.28 102.87 0)
+			(at 82.55 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3359,7 +3516,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/139341.html"
-			(at 91.567 100.584 0)
+			(at 92.837 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3369,7 +3526,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 102.87 0)
+			(at 92.71 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3378,7 +3535,7 @@
 			)
 		)
 		(property "LCSC" "C246766"
-			(at 91.44 102.87 0)
+			(at 92.71 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3399,152 +3556,6 @@
 			(project ""
 				(path "/7906e740-34c4-4b06-b70f-1daa08872946/266b9186-051e-444d-b818-05c34306ea22"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "744227S:744227S")
-		(at 143.51 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8b17a9e-0f53-4cab-b507-c968242b1ba8")
-		(property "Reference" "L2"
-			(at 153.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "744227S"
-			(at 153.67 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "WE-SL274"
-			(at 160.02 196.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://componentsearchengine.com/Datasheets/1/744227S.pdf"
-			(at 160.02 296.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Common-Mode Line Filter WE-SL2"
-			(at 143.51 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 160.02 496.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 160.02 596.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "744227S"
-			(at 160.02 696.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-744227S"
-			(at 160.02 796.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/744227S?qs=PGXP4M47uW6UzRbcLRn7mw%3D%3D"
-			(at 160.02 896.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 160.02 996.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 160.02 1096.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62b3fa0f-2862-4615-a187-19ea6ba2808b")
-		)
-		(pin "2"
-			(uuid "f1055f17-d003-4489-9364-97c30aa9977d")
-		)
-		(pin "3"
-			(uuid "d0957214-b9eb-47e8-bf4e-00b133a30626")
-		)
-		(pin "4"
-			(uuid "3a985f32-3cd9-41c8-b312-ec8fd5604ae7")
-		)
-		(instances
-			(project ""
-				(path "/7906e740-34c4-4b06-b70f-1daa08872946/266b9186-051e-444d-b818-05c34306ea22"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -3648,7 +3659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c92d4dd6-89cb-4b7b-b4ae-6769de2acb09")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR055"
 			(at 71.12 99.06 0)
 			(effects
 				(font
@@ -3698,7 +3709,7 @@
 		(instances
 			(project ""
 				(path "/7906e740-34c4-4b06-b70f-1daa08872946/266b9186-051e-444d-b818-05c34306ea22"
-					(reference "#PWR059")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -3714,7 +3725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1d5a4c0-df98-420f-a20b-3c4cd9c40cd9")
-		(property "Reference" "C50"
+		(property "Reference" "C49"
 			(at 113.03 119.3799 0)
 			(effects
 				(font
@@ -3732,7 +3743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 110.1852 124.46 0)
 			(effects
 				(font
@@ -3768,7 +3779,7 @@
 		(instances
 			(project "ESC_rev0"
 				(path "/7906e740-34c4-4b06-b70f-1daa08872946/266b9186-051e-444d-b818-05c34306ea22"
-					(reference "C50")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -3783,7 +3794,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3dbc73c-356d-442d-917a-3db2b3744ee7")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR061"
 			(at 187.96 125.73 0)
 			(effects
 				(font
@@ -3833,7 +3844,7 @@
 		(instances
 			(project "ESC_rev0"
 				(path "/7906e740-34c4-4b06-b70f-1daa08872946/266b9186-051e-444d-b818-05c34306ea22"
-					(reference "#PWR065")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -3849,7 +3860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb0af704-04fb-4068-8e6f-7ca72bfb2188")
-		(property "Reference" "R45"
+		(property "Reference" "R43"
 			(at 210.82 111.7599 0)
 			(effects
 				(font
@@ -3903,7 +3914,7 @@
 		(instances
 			(project ""
 				(path "/7906e740-34c4-4b06-b70f-1daa08872946/266b9186-051e-444d-b818-05c34306ea22"
-					(reference "R45")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -3918,7 +3929,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "efb4db32-6fdb-4be7-b96e-84420a67490f")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR059"
 			(at 109.22 133.35 0)
 			(effects
 				(font
@@ -3968,7 +3979,7 @@
 		(instances
 			(project "ESC_rev0"
 				(path "/7906e740-34c4-4b06-b70f-1daa08872946/266b9186-051e-444d-b818-05c34306ea22"
-					(reference "#PWR063")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3983,7 +3994,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f72bf790-65e2-4cd4-96a4-6abf5c5fba1a")
-		(property "Reference" "R43"
+		(property "Reference" "R41"
 			(at 123.19 88.392 90)
 			(effects
 				(font
@@ -4035,7 +4046,7 @@
 		(instances
 			(project "ESC_rev0"
 				(path "/7906e740-34c4-4b06-b70f-1daa08872946/266b9186-051e-444d-b818-05c34306ea22"
-					(reference "R43")
+					(reference "R41")
 					(unit 1)
 				)
 			)

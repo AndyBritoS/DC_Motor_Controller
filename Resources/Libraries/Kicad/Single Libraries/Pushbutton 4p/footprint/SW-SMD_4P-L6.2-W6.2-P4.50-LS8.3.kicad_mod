@@ -1,0 +1,197 @@
+(footprint "SW-SMD_4P-L6.2-W6.2-P4.50-LS8.3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SW-SMD_4P-L6.2-W6.2-P4.50-LS8.3 footprint")
+	(tags "SW-SMD_4P-L6.2-W6.2-P4.50-LS8.3 footprint C695412")
+	(property "Reference" "REF**"
+		(at 0 -5.099975 0)
+		(layer "F.SilkS")
+		(uuid "f6b346c2-455b-46a0-ab84-c24df6f91b89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW-SMD_4P-L6.2-W6.2-P4.50-LS8.3"
+		(at 0 5.099975 0)
+		(layer "F.Fab")
+		(uuid "12617911-7fc2-4108-aa9e-fbcd17392cdc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3c0ca44-8d64-4304-a84c-98a924b95cca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e25fcc5-855d-4db2-82a9-cf2ed27b0bc8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e553464b-4573-4887-8f12-cac10e636486")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.099975 -3.099975)
+		(end -3.099975 3.099975)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aadbc7c9-4602-4306-b44d-53e52fe6a9f2")
+	)
+	(fp_line
+		(start -3.099975 -3.099975)
+		(end 3.1 -3.099975)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7425556-f9fe-442f-859b-96144dbc0591")
+	)
+	(fp_line
+		(start -3.099975 3.099975)
+		(end 3.1 3.099975)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a8b0982-29d8-4d12-a8d3-8b0698c96807")
+	)
+	(fp_line
+		(start 3.1 -3.099975)
+		(end 3.1 3.099975)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "862f593b-c825-48fa-a30d-e1d8c85126a3")
+	)
+	(fp_circle
+		(center -4.150013 -3.1)
+		(end -4.120015 -3.1)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2177c821-e47b-4cce-a08b-ea4619166bbb")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.481077 0)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8e062f77-1963-4bff-b976-fdbd7b394f1d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.938532 0)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "356f967d-6b35-4be5-af32-412d393bc4ba")
+	)
+	(fp_text user "REF**"
+		(at 0 7.099975 0)
+		(layer "F.Fab")
+		(uuid "8d3e317d-6d53-4a81-b386-145a7ac49060")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.199898 -2.249936)
+		(size 1.2 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d18a2981-bac9-46ba-9e09-3271c0ba115a")
+	)
+	(pad "2" smd rect
+		(at 4.199898 -2.249936)
+		(size 1.2 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9c3c90b9-ca34-4918-9957-2ae233212b1f")
+	)
+	(pad "3" smd rect
+		(at -4.199898 2.249936)
+		(size 1.2 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "67d62af5-4453-4799-a47c-8567c146a74d")
+	)
+	(pad "4" smd rect
+		(at 4.199898 2.249936)
+		(size 1.2 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1f94d98f-f854-4b85-96dc-4ba4ee25d6e5")
+	)
+	(model "D:\\PCB\\GH_Repo\\DC_Motor_Controller\\Resources\\Libraries\\Kicad\\Single Libraries\\Pushbutton 4p/footprint/packages3d/SW-SMD_4P-L6.2-W6.2-P4.50-LS8.3.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "D:/PCB/GH_Repo/DC_Motor_Controller/Resources/Libraries/Kicad/Single Libraries/Pushbutton 4p/3D/SW-SMD_4P-L6.2-W6.2-P4.50-LS8.3.step"
+		(offset
+			(xyz 0 0 1.85)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
