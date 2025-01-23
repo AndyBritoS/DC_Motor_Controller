@@ -7606,7 +7606,7 @@
 		)
 		(uuid "a677d090-c457-45fd-b72b-ee5d3551de66")
 	)
-	(label "BR_S02"
+	(label "BR_SO2"
 		(at 182.88 115.57 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7870,7 +7870,7 @@
 		)
 		(uuid "d311231f-4e41-4de4-b943-70fab7f4ccfb")
 	)
-	(label "BR_S01"
+	(label "BR_SO1"
 		(at 182.88 118.11 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7947,7 +7947,7 @@
 		)
 		(uuid "ec54afdf-893a-4847-88d9-acd8817c5a58")
 	)
-	(label "BR_S01"
+	(label "BR_SO1"
 		(at 246.38 81.28 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8035,7 +8035,7 @@
 		)
 		(uuid "fb2de78a-cc33-40d8-bbb2-4da3f6367a59")
 	)
-	(label "BR_S02"
+	(label "BR_SO2"
 		(at 246.38 85.09 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8134,7 +8134,7 @@
 			)
 		)
 	)
-	(global_label "BR_S01"
+	(global_label "BR_SO1"
 		(shape output)
 		(at 254 81.28 0)
 		(fields_autoplaced yes)
@@ -8146,7 +8146,7 @@
 		)
 		(uuid "3e9bd058-074c-409a-a059-0a0572acbd2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.1213 81.28 0)
+			(at 264.2423 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8442,7 +8442,7 @@
 			)
 		)
 	)
-	(global_label "BR_S02"
+	(global_label "BR_SO2"
 		(shape output)
 		(at 254 85.09 0)
 		(fields_autoplaced yes)
@@ -8454,7 +8454,7 @@
 		)
 		(uuid "e29488ff-6f74-477f-9ee7-168cf5ad5fc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.1213 85.09 0)
+			(at 264.2423 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8744,7 +8744,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "085f9392-3767-41ef-b98f-851614cf8ef3")
 		(property "Reference" "FB1"
 			(at 191.7192 38.1 90)

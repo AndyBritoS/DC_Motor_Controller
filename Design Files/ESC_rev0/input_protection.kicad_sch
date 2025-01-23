@@ -1786,6 +1786,12 @@
 		(uuid "4f874e9f-4ade-401c-bdd1-cb6494c98371")
 	)
 	(junction
+		(at 63.5 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57c4455d-a645-460a-b438-f3c79a76c2a1")
+	)
+	(junction
 		(at 120.65 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1802,12 +1808,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f9bfe04-f787-48d1-a5ba-2fa8b72f72ed")
-	)
-	(junction
-		(at 63.5 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4de8384-a311-4339-9e43-7502f2e86ffd")
 	)
 	(junction
 		(at 212.09 77.47)
@@ -2087,16 +2087,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 80.01) (xy 58.42 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99734592-99f2-4742-88c2-3d96d2fcc654")
-	)
-	(wire
-		(pts
 			(xy 133.35 149.86) (xy 133.35 152.4)
 		)
 		(stroke
@@ -2167,6 +2157,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 77.47) (xy 63.5 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad593e81-fbf3-4729-b547-5f935b17aefa")
+	)
+	(wire
+		(pts
 			(xy 63.5 77.47) (xy 63.5 73.66)
 		)
 		(stroke
@@ -2227,16 +2227,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 77.47) (xy 63.5 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5646e70-4ce8-45b8-9440-2a3462a2cf96")
-	)
-	(wire
-		(pts
 			(xy 128.27 77.47) (xy 128.27 80.01)
 		)
 		(stroke
@@ -2264,6 +2254,16 @@
 			(type default)
 		)
 		(uuid "dbaa2543-76e8-467e-990b-c4162d369325")
+	)
+	(wire
+		(pts
+			(xy 58.42 80.01) (xy 63.5 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0db2ad9-dcf0-4206-b19d-a7952646ca1b")
 	)
 	(wire
 		(pts
@@ -2751,7 +2751,6 @@
 	(symbol
 		(lib_id "XT60PW-M:XT60PW-M")
 		(at 49.53 78.74 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2759,7 +2758,7 @@
 		(dnp no)
 		(uuid "19367a24-dd26-42de-9a68-3bc75cbb8328")
 		(property "Reference" "U1"
-			(at 51.054 73.914 0)
+			(at 51.054 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +2767,7 @@
 			)
 		)
 		(property "Value" "XT60PW-M"
-			(at 58.928 84.328 0)
+			(at 58.928 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +2776,7 @@
 			)
 		)
 		(property "Footprint" "XT60PW-M:XT60PWM"
-			(at 66.04 -16.18 0)
+			(at 66.04 173.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2787,7 +2786,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/9b8d0c5eb7094295f3d3112c214d3ade/XT60PW%20SPEC.pdf"
-			(at 66.04 -116.18 0)
+			(at 66.04 273.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2797,7 +2796,7 @@
 			)
 		)
 		(property "Description" "Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; Colour: yellow"
-			(at 58.928 64.262 0)
+			(at 58.928 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2815,7 +2814,7 @@
 			)
 		)
 		(property "Height" "8.4"
-			(at 66.04 -316.18 0)
+			(at 66.04 473.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2825,7 +2824,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Changzou Amass Elec"
-			(at 66.04 -416.18 0)
+			(at 66.04 573.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +2834,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "XT60PW-M"
-			(at 66.04 -516.18 0)
+			(at 66.04 673.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2845,7 +2844,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 66.04 -616.18 0)
+			(at 66.04 773.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2855,7 +2854,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 66.04 -716.18 0)
+			(at 66.04 873.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +2864,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 66.04 -816.18 0)
+			(at 66.04 973.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,7 +2874,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 66.04 -916.18 0)
+			(at 66.04 1073.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
