@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "S3B-XH-SM4-TB ")
 	(property "Reference" "REF**"
-		(at 0 4.549501 0)
+		(at 0.06 -5.46 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "332a0e43-7376-4ca4-859d-086ce025dd26")
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "CONN3_S3B-XH_JST"
-		(at 0 4.549501 0)
+		(at 0.36 14.27 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "ed29c887-33f7-4e1a-b3a3-0468e2984407")
@@ -249,7 +249,7 @@
 		(uuid "3442af69-8e77-4562-8890-f972824378e0")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 4.549501 0)
+		(at 0.6 12.69 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "1f8e99c5-e221-4280-bb18-12625689ca90")

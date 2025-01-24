@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "DRV8302DCA ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at -0.05 -8.15 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "27bf20b3-f1d7-40a0-8301-a51015dd0f49")
