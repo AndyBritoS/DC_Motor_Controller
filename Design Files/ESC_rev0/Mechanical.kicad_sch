@@ -6,6 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MECHANICAL")
+		(date "2025-01-24")
+		(rev "0")
 	)
 	(lib_symbols
 		(symbol "Device:R"

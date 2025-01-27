@@ -1,0 +1,187 @@
+(version 1)
+
+#### https://docs.kicad.org/master/id/pcbnew/pcbnew_advanced.html#custom_design_rules
+
+## ------------ 2oz (0.07 mm thick) Multilayer FR4 ---------------------------------
+##------------------------------------------------------------------------------------
+## ----------------------- DRILLING ---------------------------------
+### This rule handles diameter minimum and maximum for ALL holes. Min 0.15, Max 6.3
+(rule "Drill diameter"
+	(constraint hole_size (min 0.15mm) (max 6.3mm))
+)
+
+### Min via hole size,  0.15 
+(rule "Via hole size"
+	(layer outer)
+	(condition "A.isPlated()&& A.Hole_Size_X == A.Hole_Size_Y")
+	(constraint hole_size (min 0.15mm))
+)
+
+### Min via diameter, 0.25 
+(rule "Via diameter"
+	(layer outer)
+	(condition "A.isPlated()&& A.Hole_Size_X == A.Hole_Size_Y")
+	(constraint via_diameter (min 0.25mm))
+)
+
+### Min non-plate hole, 0.50
+(rule "Hole (NPTH) size"
+	(layer outer)
+	(condition "!A.isPlated()&& A.Hole_Size_X == A.Hole_Size_Y")
+	(constraint hole_size (min 0.50mm))
+)
+
+### Min plated slot, 0.50
+(rule "Plated slot size"
+    (constraint hole_size (min 0.50mm))
+    (condition "A.isPlated() && A.Hole_Size_X != A.Hole_Size_Y"))
+
+### Min non-plated slot, 1.00
+(rule "Plated slot size"
+    (constraint hole_size (min 1.00mm))
+    (condition "!A.isPlated() && A.Hole_Size_X != A.Hole_Size_Y"))
+
+### Via Hole-to-Hole Spacing, min 0.20
+(rule "Via Hole-to-Hole Spacing"
+    (constraint hole_to_hole (min 0.20mm))
+    (condition "A.Type == 'Via' && B.Type == 'Via' && A.Net != B.Net")
+)
+
+### Pad Hole-to-Hole Spacing, min 0.45
+(rule "Via Hole-to-Hole Spacing"
+    (constraint hole_to_hole (min 0.45mm))
+    (condition "A.Type == 'Through-hole' && B.Type == 'Through-hole' && A.Net != B.Net")
+)
+
+### Min. Castellated Holes, 0.60mm  	[TODO]
+
+### Plated edges, 10x10mm
+
+
+
+## ----------------------- TRACES ---------------------------------
+### Width: 0.16
+(rule "Track width (2oz)"
+	(layer outer)
+	(condition "A.Type == 'track'")
+	(constraint track_width (min 0.16mm))
+)
+
+### Spacing: 0.20 (2oz multilayer)
+(rule "Track spacing (2oz multilayer)"
+	(layer outer)
+	(condition "A.Type == 'track' && B.Type == !A.Type")
+	(constraint clearance (min 0.2mm))
+)
+
+### PTH annular ring, min 0.254 (multilayer 2oz)
+(rule "PTH annular ring (multilayer 2oz)"
+	(layer outer)
+	(condition "A.Pad_Type == 'Through-hole'")
+	(constraint annular_width (min 0.254mm))
+)
+
+### NPTH pad annular ring, min 0.45
+(rule "NPTH pad annular ring"
+	(layer outer)
+	(condition "A.Pad_Type == 'NPTH, mechanical'")
+	(constraint annular_width (min 0.45mm))
+)
+
+### Same-net track spacing, min 0.25
+(rule "Track spacing, same net (2oz multilayer)"
+	(layer outer)
+	(condition "A.Type == 'track' && B.Type == A.Type && A.Net == B.Net")
+	(constraint clearance (min 0.25mm))
+)
+
+### Inner layer via hole to copper clearance, min 0.2
+(rule "Inner layer via hole to copper clearance"
+	(layer inner)
+	(condition "A.Type == 'Via' && (B.Type == 'Pad' || B.Type == 'Track')")
+	(constraint clearance (min 0.2mm))
+)
+
+### Inner layer PTH pad hole to copper clearance, min 0.3
+(rule "Inner layer PTH pad hole to copper clearance"
+	(layer inner)
+	(condition "A.Pad_Type == 'Through-hole' && (B.Type == 'Pad' || B.Type == 'Track')")
+	(constraint clearance (min 0.3mm))
+)
+
+### Pad to track clearance, min 0.1 (stay well above if possible)
+(rule "Pad to track clearance"
+	(layer outer)
+	(condition "A.Type == 'Pad' && B.Type == 'Track'")
+	(constraint clearance (min 0.1mm) (opt 0.2mm))
+)
+
+### SMD pad to pad clearance (different nets), min 0.15
+(rule "SMD pad to pad clearance (different nets)"
+	(layer outer)
+	(condition "A.Pad_Type == 'SMD' && B.Pad_Type == 'SMD' && A.Net != B.Net")
+	(constraint clearance (min 0.15mm))
+)
+
+### Via hole to Track, min 0.2
+(rule "Via hole to Track"
+	(layer outer)
+	(condition "A.Type == 'Via' && B.Type == 'Track'")
+	(constraint clearance (min 0.2mm))
+)
+
+### PTH to Track, min 0.28 (recommended 0.35)
+(rule "PTH to Track"
+	(layer outer)
+	(condition "A.Pad_Type == 'Through-hole' && B.Type == 'Track'")
+	(constraint clearance (min 0.28mm)(opt 0.35mm))
+)
+
+### NPTH to Track, min 0.28
+(rule "PTH to Track"
+	(layer outer)
+	(condition "A.Pad_Type == 'NPTH, mechanical' && B.Type == 'Track'")
+	(constraint clearance (min 0.2mm))
+)
+
+
+## ----------------------- SOLDERMASK ---------------------------------
+
+## ----------------------- LEGEND ---------------------------------
+### Minimum Line Width, 0.15
+###    "     "   Height, 1.0
+(rule "Silkscreen text dimension"
+	(layer "?.Silkscreen")
+	(condition "A.Type == 'Text' || A.Type == 'Text Box'")
+	(constraint text_thickness (min 0.15mm))
+	(constraint text_height (min 1mm))
+)
+
+### Pad to silk, min 0.15 mm
+(rule "Pad to Silkscreen"
+	(layer outer)
+	(condition "A.Type == 'pad' && B.Layer == '?.Silkscreen'")
+	(constraint silk_clearance (min 0.15mm))
+)
+
+
+## ----------------------- OUTLINE ---------------------------------
+### Routed, min 0.2
+(rule "Edge (routed) to track clearance"
+	(condition "A.Type == 'track'")
+	(constraint edge_clearance (min 0.2mm))
+)
+
+
+# TODO: Hole to board edge ≥ 1 mm. Min. board size 10 × 10 mm
+#(rule "Hole (castellated) diameter"
+#	(layer outer)
+#	(condition "A.Type == 'pad' && A.Fabrication_Property == 'Castellated pad'")
+#	(constraint hole_size (min 0.6mm))
+#)
+
+
+#(rule "Edge (v-cut) to track clearance"
+#	(condition "A.Type == 'track'")
+#	(constraint edge_clearance (min 0.4mm))
+#)

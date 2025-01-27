@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "USB")
+		(date "2025-01-24")
 		(rev "0")
 	)
 	(lib_symbols
@@ -2278,7 +2279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal_mod"
 			(at 87.63 85.09 0)
 			(effects
 				(font
